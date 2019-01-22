@@ -122,7 +122,6 @@
             [btn setTitleColor:XBTabViewColor_black_51_51_51 forState:UIControlStateNormal];
             [btn setTitleColor:XBTabViewColor_nav forState:UIControlStateSelected];
             [btn setTitle:title forState:UIControlStateNormal];
-            btn.backgroundColor = RandColor;
             [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
             [self.arrM_btns addObject:btn];
             [btn layoutIfNeeded];

@@ -26,7 +26,7 @@
     view.bl_click = ^(NSInteger index) {
         NSLog(@"%ld",index);
     };
-    view.backgroundColor = [UIColor orangeColor];
+    view.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.2];
     self.testView = view;
 }
 
