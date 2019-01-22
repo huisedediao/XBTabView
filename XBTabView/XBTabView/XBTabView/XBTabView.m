@@ -1,22 +1,22 @@
 //
-//  XBChooseTypeView.m
+//  XBTabView.m
 //  AnXin
 //
 //  Created by xxb on 2018/4/19.
 //  Copyright © 2018年 xxb. All rights reserved.
 //
 
-#import "XBChooseTypeView.h"
+#import "XBTabView.h"
 #import "XBTabViewConfig.h"
 #import "Masonry.h"
 
-@interface XBChooseTypeView ()
+@interface XBTabView ()
 @property (nonatomic,strong) UIScrollView *scrollView;
 @property (nonatomic,strong) UIView *lineView;
 @property (nonatomic,strong) NSMutableArray *arrM_btns;
 @end
 
-@implementation XBChooseTypeView
+@implementation XBTabView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -30,7 +30,7 @@
 
 - (void)dealloc
 {
-    NSLog(@"XBChooseTypeView销毁");
+    NSLog(@"XBTabView销毁");
 }
 
 - (void)setCurrentIndex:(NSInteger)currentIndex

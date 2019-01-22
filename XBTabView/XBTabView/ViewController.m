@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "XBChooseTypeView.h"
+#import "XBTabView.h"
 
 @interface ViewController ()
 @property (nonatomic,strong) UIView *testView;
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    XBChooseTypeView *view = [XBChooseTypeView new];
+    XBTabView *view = [XBTabView new];
     [self.view addSubview:view];
     view.frame = CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, 50);
     view.arr_titles = @[@"1",@"1",@"1",@"1",@"1",@"1",@"1"];

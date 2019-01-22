@@ -1,5 +1,5 @@
 //
-//  XBChooseTypeView.h
+//  XBTabView.h
 //  AnXin
 //
 //  Created by xxb on 2018/4/19.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void (^XBChooseTypeViewClickBtnBlock)(NSInteger index);
+typedef void (^XBTabViewClickBtnBlock)(NSInteger index);
 
-@interface XBChooseTypeView : UIView
+@interface XBTabView : UIView
 @property (nonatomic,assign) NSInteger btnCountForScreenWidth;
 @property (nonatomic,assign) NSInteger currentIndex;
 @property (nonatomic,strong) NSArray *arr_titles;
-@property (nonatomic,copy) XBChooseTypeViewClickBtnBlock bl_click;
+@property (nonatomic,copy) XBTabViewClickBtnBlock bl_click;
 @end

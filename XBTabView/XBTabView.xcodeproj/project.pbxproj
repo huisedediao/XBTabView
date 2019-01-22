@@ -15,7 +15,7 @@
 		F1337B2121F70ED900E66590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B2021F70ED900E66590 /* main.m */; };
 		F1337B2B21F70ED900E66590 /* XBTabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B2A21F70ED900E66590 /* XBTabViewTests.m */; };
 		F1337B3621F70ED900E66590 /* XBTabViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B3521F70ED900E66590 /* XBTabViewUITests.m */; };
-		F1337B4621F7109B00E66590 /* XBChooseTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B4521F7109B00E66590 /* XBChooseTypeView.m */; };
+		F1337B4621F7109B00E66590 /* XBTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B4521F7109B00E66590 /* XBTabView.m */; };
 		F1337B6121F710DD00E66590 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B4921F710DD00E66590 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		F1337B6221F710DD00E66590 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B5221F710DD00E66590 /* ViewController+MASAdditions.m */; };
 		F1337B6321F710DD00E66590 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1337B5621F710DD00E66590 /* MASCompositeConstraint.m */; };
@@ -62,8 +62,8 @@
 		F1337B3121F70ED900E66590 /* XBTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1337B3521F70ED900E66590 /* XBTabViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBTabViewUITests.m; sourceTree = "<group>"; };
 		F1337B3721F70ED900E66590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1337B4421F7109B00E66590 /* XBChooseTypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBChooseTypeView.h; sourceTree = "<group>"; };
-		F1337B4521F7109B00E66590 /* XBChooseTypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBChooseTypeView.m; sourceTree = "<group>"; };
+		F1337B4421F7109B00E66590 /* XBTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTabView.h; sourceTree = "<group>"; };
+		F1337B4521F7109B00E66590 /* XBTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTabView.m; sourceTree = "<group>"; };
 		F1337B4821F710DD00E66590 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		F1337B4921F710DD00E66590 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		F1337B4A21F710DD00E66590 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 		F1337B4321F7108600E66590 /* XBTabView */ = {
 			isa = PBXGroup;
 			children = (
-				F1337B4421F7109B00E66590 /* XBChooseTypeView.h */,
-				F1337B4521F7109B00E66590 /* XBChooseTypeView.m */,
+				F1337B4421F7109B00E66590 /* XBTabView.h */,
+				F1337B4521F7109B00E66590 /* XBTabView.m */,
 				F1337B6B21F7112100E66590 /* XBTabViewConfig.h */,
 			);
 			path = XBTabView;
@@ -348,7 +348,7 @@
 				F1337B6921F710DD00E66590 /* MASViewConstraint.m in Sources */,
 				F1337B6A21F710DD00E66590 /* MASViewAttribute.m in Sources */,
 				F1337B1621F70ED800E66590 /* ViewController.m in Sources */,
-				F1337B4621F7109B00E66590 /* XBChooseTypeView.m in Sources */,
+				F1337B4621F7109B00E66590 /* XBTabView.m in Sources */,
 				F1337B6621F710DD00E66590 /* NSArray+MASAdditions.m in Sources */,
 				F1337B6221F710DD00E66590 /* ViewController+MASAdditions.m in Sources */,
 				F1337B6321F710DD00E66590 /* MASCompositeConstraint.m in Sources */,
