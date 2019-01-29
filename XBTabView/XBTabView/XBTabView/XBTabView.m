@@ -53,7 +53,7 @@
                 make.width.mas_equalTo(kBtnWidth);
                 make.height.mas_equalTo(GHeightFactorFun(1));
                 make.bottom.equalTo(self);
-                make.left.equalTo(btn);
+                make.centerX.equalTo(btn);
             }];
             [self layoutIfNeeded];
         }];
@@ -88,7 +88,6 @@
                 make.width.mas_equalTo(kBtnWidth);
                 make.height.mas_equalTo(GHeightFactorFun(1));
                 make.bottom.equalTo(self);
-                make.left.mas_equalTo(0);
             }];
             line.backgroundColor = XBTabViewColor_nav;
             line;
